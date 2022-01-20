@@ -1,7 +1,9 @@
 import './style.css'
 import * as THREE from 'three'
 console.log(THREE);
-
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+// import * as dat from 'dat.gui'
+// const gui = new dat.GUI();
 const scene = new THREE.Scene();
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({
